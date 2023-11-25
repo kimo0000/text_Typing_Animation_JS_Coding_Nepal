@@ -1,0 +1,28 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom left, rgb(45, 87, 10), rgb(98, 82, 74));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 50px;
+  color: #fff;
+}
+p span {
+  color: blueviolet;
+  font-weight: 700;
+  transition: 0.3s;
+}
